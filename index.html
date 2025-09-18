@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify – Web Player</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left ">
+            <div class="home border">
+                <img id="logo" src="svg/logo.svg" alt="">
+                <ul>
+                    <li>
+                        <img class="svg" src="svg/home.svg" alt="Home">
+                        <span>Home</span>
+                    </li>
+                    <li>
+                        <img class="svg" src="svg/search.svg" alt="Search">
+                        <span>Search</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="library border">
+                <div class="library_top">
+                    <img class="svg" src="svg/library.svg" alt="Library">
+                    <span>Your Library</span>
+                    <img class="svg plus" src="svg/plus.svg" alt="Add">
+                </div>
+                <div class="library_box1 lb">
+                    <p class="lb_title">Create your first playlist</p>
+                    <p class="lb_text">It's easy, we'll help you</p>
+                    <button class="playlist lb_button">Create Playlist</button>
+                </div>
+                <div class="library_box2 lb">
+                    <p class="lb_title">Let's find some podcasts to follow</p>
+                    <p class="lb_text">We'll keep you updated on now episodes</p>
+                    <button class="podcasts lb_button">Browse podcasts</button>
+                </div>
+                <footer class="library_footer">
+                    <ul>
+                        <li><a href="">Legal</a></li>
+                        <li><a href="">Privacy Center</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Cookies</a></li>
+                        <li><a href="">About Ads</a></li>
+                        <li><a href="">Accessibility</a></li>
+                        <li><a href="">Notice at Collection</a></li>
+                        <li><a href="">Your Privacy Choices</a></li>
+                        <li><a href="">Cookies</a></li>
+
+                    </ul>
+                </footer>
+                <button class="lang"><i class="fa-solid fa-language"></i>English</button>
+            </div>
+        </div>
+        <div class="right border">
+            <header>
+                <div class="arrows">
+                    <div class="left_arrow arrow_button">
+                        <img class="undo arrow" src="svg/arrow.svg" alt="Undo">
+                    </div>
+                    <div class="right_arrow arrow_button">
+                        <img class="redo arrow" src="svg/arrow.svg" alt="Undo">
+                    </div>
+                </div>
+                <div class="account">
+                    <button class="sign_up acc">Sign up</button>
+                    <button class="log_in acc">Log in</button>
+            </header>
+            <div class="playlists">
+                <h1>Popular radio</h1>
+                <div class="All_cards">
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>                              
+                            <img src="playlists/playlist1.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Sachin-Jigar, Jeet Gannguli, Atif Aslam and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist2.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Pritam, Atif Aslam, Shaan and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist3.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With A.R. Rahman, Salim-Sulaiman, Ajay-Atul and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist4.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Anirudh Ravichander, G. V. Prakash, Yuvan Shankar Raja and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist5.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Badshah, Harrdy Sandhu, Aastha Gill and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist6.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Mukesh, Hemant Kumar, Lata Mangeshkar and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist7.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Mukesh, Manna Dey, Hemant Kumar and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist8.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Mukesh, Hemant Kumar, Asha Bhosle and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist9.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Shubh, Karan Aujla, Sidhu Moose Wala and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist10.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Anuradha Paudwal, Alka Yagnik, Jatin-Lalit and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>                              
+                            <img src="playlists/playlist1.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Sachin-Jigar, Jeet Gannguli, Atif Aslam and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist2.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Pritam, Atif Aslam, Shaan and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist3.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With A.R. Rahman, Salim-Sulaiman, Ajay-Atul and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist4.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Anirudh Ravichander, G. V. Prakash, Yuvan Shankar Raja and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist5.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Badshah, Harrdy Sandhu, Aastha Gill and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist6.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Mukesh, Hemant Kumar, Lata Mangeshkar and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist7.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Mukesh, Manna Dey, Hemant Kumar and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist8.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Mukesh, Hemant Kumar, Asha Bhosle and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist9.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Shubh, Karan Aujla, Sidhu Moose Wala and more</p>
+                    </div>
+                    <div class="cards">
+                        <div class="card_img">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>  
+                            <img src="playlists/playlist10.jpeg" alt="Arijit Singh">
+                        </div>
+                        <p>With Anuradha Paudwal, Alka Yagnik, Jatin-Lalit and more</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="playbar">
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
