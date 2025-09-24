@@ -34,15 +34,17 @@
                     <span>Your Library</span>
                     <img class="svg plus" src="svg/plus.svg" alt="Add">
                 </div>
-                <div class="library_box1 lb">
-                    <p class="lb_title">Create your first playlist</p>
-                    <p class="lb_text">It's easy, we'll help you</p>
-                    <button class="playlist lb_button">Create Playlist</button>
-                </div>
-                <div class="library_box2 lb">
-                    <p class="lb_title">Let's find some podcasts to follow</p>
-                    <p class="lb_text">We'll keep you updated on now episodes</p>
-                    <button class="podcasts lb_button">Browse podcasts</button>
+                <div class="songList">
+                    <ul>
+                        <li>
+                            <img class="svg" src="svg/music.svg" alt="">
+                            <div class="info">
+                                <div class="songname">Song Name</div>
+                                <div class="artistname">Arist Name</div>
+                            </div>
+                            <img class="svg playmusic" src="svg/play1.svg" alt="">
+                        </li>
+                    </ul>
                 </div>
                 <footer class="library_footer">
                     <ul>
@@ -77,7 +79,7 @@
             </header>
             <div class="playlists">
                 <h1>Popular radio</h1>
-                <div class="All_cards">
+                <div class="All_cards border">
                     <div class="cards">
                         <div class="card_img">
                             <div class="play-btn">
@@ -262,8 +264,20 @@
             </div>
         </div>
     </div>
+
     <div class="playbar">
-        
+        <div class="songinfo">
+
+        </div>
+        <div class="songbutton">
+            <img class="previous" src="svg/next.svg" alt="">
+            <!-- <img class="pause playmusic" src="svg/pause.svg" alt=""> -->
+            <img class="play1 svg" src="svg/play1.svg" alt="">
+            <img class="next" src="svg/next.svg" alt="">
+        </div>
+        <div class="songtime">
+
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
